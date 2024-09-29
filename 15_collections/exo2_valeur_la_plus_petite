@@ -1,0 +1,14 @@
+# ALGO : Valeur la plus petite
+distance_chauffeur = [1.5, 2.2, 0.4, 0.9, 7.1, 1.1, 0.6]
+chauffeurs = ["Patrick", "Paul", "Marc", "Jean", "Pierre", "Marie", "Maxime"]
+
+petite_valeur = distance_chauffeur[0]
+chauffeur = chauffeurs[0]
+for i in range(len(distance_chauffeur)):
+    if distance_chauffeur[i] < petite_valeur:
+        petite_valeur = distance_chauffeur[i]
+        chauffeur = chauffeurs[i]
+
+
+print(f"La plus petite valeur est : {petite_valeur}km")
+print("Le chauffeur correspondant est : " + chauffeur)

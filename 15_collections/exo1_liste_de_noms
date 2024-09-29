@@ -1,0 +1,22 @@
+import os
+
+
+def clear_screen():
+    if(os.name == 'posix'):
+        os.system('clear')
+    else:
+        os.system('cls')
+
+# Construction d'une liste de noms rentrées par l'utilisation
+print("Ce programme permet d'entrer une liste")
+list_nom = []
+while True:
+    nom = input("Entrez un nom, puis appuyer sur entrée ou appuyer sur entrée pour terminer: ")
+    if nom == "":
+        break
+    list_nom.append(nom)
+    clear_screen()
+
+print(*list_nom)
+list_nom.sort() #in place par defaut. La liste est altérée
+print(*list_nom) # Trie par ordre alphabétic des code ascii: A-Z  a-Z
