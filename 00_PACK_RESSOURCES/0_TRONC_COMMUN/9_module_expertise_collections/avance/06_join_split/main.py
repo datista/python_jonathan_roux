@@ -4,12 +4,12 @@
 #          0        1        2           3           4
 noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe"]
 
-# Join : Rejoindre -> coller
+# Join : Rejoindre -> coller avec un séparateur (ex: csv)
 
 noms_join = ", ".join(noms)
 print(noms_join)
 
-# Split : Séparer
+# Split : Séparer, extrait une chaine avec séparateur (ex: un csv)
 # a = "Paul-Marc-Emilie"
 #a_split = a.split("-")
 #print(a_split)

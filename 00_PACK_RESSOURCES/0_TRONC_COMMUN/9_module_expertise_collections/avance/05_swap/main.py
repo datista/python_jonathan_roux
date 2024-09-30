@@ -9,6 +9,6 @@ noms[0] = noms[4]  # Jean <- Zoe
 noms[4] = t'''
 
 #                     Zoe      Jean
-noms[0], noms[4] = noms[4], noms[0]
+noms[0], noms[4] = noms[4], noms[0] # -> permutation sans passer par une boucle !
 
 print(noms)

@@ -9,8 +9,8 @@ noms_supplementaires = ["Christophe", "Zoe"]
 # for e in noms_supplementaires:
 #    noms.append(e)
 #noms.extend(noms_supplementaires)
-# noms += noms_supplementaires
-# noms = noms + noms_supplementaires
+# noms += noms_supplementaires -> identique à "extend"
+# noms = noms + noms_supplementaires -> identique à "extend"
 
 # noms.append("Toto")
 # noms.insert(1, "Toto")

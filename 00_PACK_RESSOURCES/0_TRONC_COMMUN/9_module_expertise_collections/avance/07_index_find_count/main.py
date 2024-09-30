@@ -1,6 +1,9 @@
 # LES COLLECTIONS : LISTES / TUPLES
 # index, find et count
-
+# index -> trouve l'index d'une valeur passée en paramètre. Lève une exception si l'élément n'existe pas dans la collection. On peut préciser à partir quel index
+# count -> compter le nombre d'occurrence d'un élément 
+# find fonctionne comme index, mais uniquement pour les chaines de caractère, pas les collections !
+#
 #          0        1        2           3           4      5
 noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe", "Martin"]
 

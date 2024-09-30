@@ -1,6 +1,7 @@
 # LES COLLECTIONS : LISTES / TUPLES
 # Les compréhensions de listes
-
+# la condition if mise à la fin, conditionne le d'ajouter ou non l'élément dans la liste
+# la condition if mis au début, conditionne la valeur à mettre dans la liste
 #          0        1        2           3           4      5
 noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe", "Martin"]
 

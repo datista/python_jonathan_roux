@@ -10,7 +10,7 @@ noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe"]
 # tri par ordre alphabetique STR
 # du plus petit au plus grand INT
 #noms.sort(key=tri_longeur_caracteres, reverse=True)  # inplace
-noms_tries = sorted(noms, key=tri_longeur_caracteres, reverse=True)  # créer une nouvelle liste
+noms_tries = sorted(noms, key=tri_longeur_caracteres, reverse=True)  # créer une nouvelle liste triée, sans altérer l'original
 
 print(noms)
 print(noms_tries)

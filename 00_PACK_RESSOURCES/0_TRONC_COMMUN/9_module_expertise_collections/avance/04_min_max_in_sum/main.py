@@ -1,6 +1,9 @@
 # LES COLLECTIONS : LISTES / TUPLES
 # Operations sur les éléments : min, max, in, sum
 
+# min, max sur une liste de chaine de caractère, se base sur l'ordre alphabétic
+# sum ne s'utilise que sur des valeurs numériques
+
 #          0        1        2           3           4
 noms = ["Jean", "Sophie", "Martin", "Christophe", "Zoe"]
 
