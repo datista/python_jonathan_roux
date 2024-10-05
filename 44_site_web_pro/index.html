@@ -4,40 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issifou Baro</title>
-
-    <style>
-        body{
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        div.cover{
-            background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
-            height: 360px;
-        }
-        img.cover-profile{
-            height: 100px;
-            position: relative;
-            left : 50%;
-            margin-left: -50px;
-            margin-top: 50px;
-        }
-
-        h1{
-            color: white;
-            text-align: center;
-        }
-
-        div.cover p{
-            color: lightgray ;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--- COUVERTURE -->
     <div class="cover">
         <img class="cover-profile" src="Profile.png">
         <h1>Issifou Baro</h1>
         <p>Data, AI Strategy & Finance | 19 ans d'expérience</p>
+        <div style="text-align: center;">
+            <a class="contact-button" href="mailto:barosmota@gmail.com?subject=Contact%20depuis%20edozzo.com">ME CONTACTER</a>
+        </div>       
+        <div class="cover-contact">
+            <p><a href="mailto:barosmota@gmail.com?subject=Contact%20depuis%20edozzo.com">barosmota@gmail.com</a></p>
+            <p><a href="tel:+33602175830">06 02 17 58 30</a></p>
+        </div>
     </div>
+    <!--- SECTION GRISE 1 -->
+    <div class="section section-grise1">
+        <div class="separateur"></div>
+       <p>Je vous aide à <b>réussir</b> vos projets <b>Data & IA</b></p>
+    </div>
+
+    <!--- SECTION BLANCHE -->
+    <div class="section">
+        <h2>En savoir plus</h2>
+        <img src="profile2.jpg" class="col-contenu"/>
+        <div class="col-contenu float-right">
+            <div class="texte-avec-ligne-verticale">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum expedita repudiandae impedit nostrum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum expedita repudiandae impedit nostrum.</p>
+                <a href="https://www.linkedin.com/in/barosmota/" target="_blank">En savoir plus sur mon profil</a>
+            </div>    
+        </div>
+    </div>
+    <!--- SECTION GRISE 2 -->
+    <div class="section section-grise2">
+        <h2>Portfolio</h2>
+        <table style="width: 100%;">
+            <table class="col-portfolio" style="display: inline-block;">
+                <tr>
+                    <td><div class="barre-verticale"></div></td>
+                    <td style="width: 100%;"><a href="href="portfolio-site-projet1.html"><img style="width: 100%;" src="project1small.jpg"/></a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><a href="portfolio-site-projet1.html">Site web pour projet 1</a></td>
+                </tr>
+            </table>
+            <table class="col-portfolio float-right">
+                <tr>
+                    <td><div class="barre-verticale"></div></td>
+                    <td style="width: 100%;"><img style="width: 100%;" src="project2small.jpg"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><a href="#">Site web pour projet 2</a></td>
+                </tr>
+            </table>
+        </table>
+    </div>
+    <!--- SECTION BLANCHE -->
+    <iframe src="contact-frame.html" scrolling="no"/>
 </body>
 </html>  
